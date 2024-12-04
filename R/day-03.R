@@ -6,7 +6,6 @@ library(collapse)
 
 get_day3_input <- function() {
   here("data", "input-day03.txt") %>%
-    # Read in as single column
     readLines()
 }
 
